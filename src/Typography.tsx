@@ -12,6 +12,7 @@ const Typography: FunctionComponent<TypographyProps> = ({
   children,
   variant,
   style,
+  ...rest
 }) => {
   return (
     <TypographyContext.Consumer>
@@ -21,7 +22,11 @@ const Typography: FunctionComponent<TypographyProps> = ({
         if (variant) {
           variantStyle = typographyStyle[variant];
         }
-        return <RNText style={[base, variantStyle, style]}>{children}</RNText>;
+        return (
+          <RNText {...rest} style={[base, variantStyle, style]}>
+            {children}
+          </RNText>
+        );
       }}
     </TypographyContext.Consumer>
   );
