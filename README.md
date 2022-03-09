@@ -1,3 +1,8 @@
+[![npm version](https://badge.fury.io/js/react-native-awesome-text.svg)](https://badge.fury.io/js/react-native-awesome-text)
+![LICENSE](https://img.shields.io/github/license/tejachundru/react-native-awesome-text?style=plastic)
+![DOWNLOADS](https://img.shields.io/npm/dm/react-native-awesome-text)
+
+
 # react-native-awesome-text
 
 react native typography , inspired from [Mui Typography](https://mui.com/components/typography/)
