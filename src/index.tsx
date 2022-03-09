@@ -1,3 +1,4 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+import { default as Typography } from './Typography';
+import { default as TypographyProvider } from './TypographyProvider';
+
+export { Typography, TypographyProvider };
