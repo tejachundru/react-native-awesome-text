@@ -54,6 +54,12 @@ Now you can import Typography and use it any where in the app
 
 ```
 
+
+![Screenshot 2022-03-09 at 6 18 44 AM](https://user-images.githubusercontent.com/31952669/157350948-91309c50-e1fd-4c95-b49d-cb23b1dad0a1.png)
+
+
+
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
