@@ -42,6 +42,8 @@ Now you can import Typography and use it any where in the app
 ```js
 // example usage
 
+import { Typography } from 'react-native-awesome-text';
+
 <Typography>Awesome</Typography>
 <Typography variant="h1">Awesome</Typography>
 <Typography variant="h2">Awesome</Typography>
