@@ -6,34 +6,62 @@ import { material } from 'react-native-typography';
 
 export default function App() {
   const style = {
-    base: { fontSize: 14, color: 'black', fontFamily: 'Lato-Medium' },
-    h1: { color: 'red' },
-    h2: { fontSize: 22, color: 'green' },
-    h3: { fontSize: 20, color: 'blue' },
-    h4: { fontSize: 18, color: 'purple' },
-    h5: { fontSize: 16, color: 'orange' },
-    h6: { fontSize: 14, color: 'yellow' },
-    display2: material.display2,
+    base: {
+      // base can be used to declare common items , that applies for the all variantss like fontfamily,textColor etc
+      fontSize: 16,
+      color: 'black',
+      fontFamily: 'Lato-Medium',
+    },
+    // Variants
+    HeadLine: {
+      fontSize: 30,
+      color: '#111111',
+      fontFamily: 'Lato-Bold',
+    },
+    SubHeadLine: {
+      fontSize: 26,
+      color: '#333333',
+      fontFamily: 'Lato-Bold',
+    },
+    Title: {
+      fontSize: 24,
+      color: '#444444',
+      fontFamily: 'Lato-Bold',
+    },
+    SubTitle: {
+      fontSize: 22,
+      color: '#666666',
+      fontFamily: 'Lato-Bold',
+    },
+    Body1: {
+      fontSize: 18,
+      color: '#444444',
+      fontFamily: 'Lato-Medium',
+    },
+    Body2: {
+      fontSize: 16,
+      color: '#555555',
+      fontFamily: 'Lato-Medium',
+    },
+    Caption: {
+      fontSize: 12,
+      color: 'grey',
+      fontFamily: 'Lato-Medium',
+    },
+    display1: material.display1,
   };
 
   return (
     <TypographyProvider typography={style}>
       <View style={styles.container}>
-        <Typography>Result: ******</Typography>
-        <Typography variant="h1">Result: ******</Typography>
-        <Typography variant="h2">Result: ******</Typography>
-        <Typography variant="h3">Result: ******</Typography>
-        <Typography variant="h4">Result: ******</Typography>
-        <Typography variant="h5">Result: ******</Typography>
-        <Typography
-          variant="h6"
-          style={{
-            color: 'red',
-          }}
-        >
-          Result: ******
-        </Typography>
-        <Typography variant="display2">Result: ******</Typography>
+        <Typography variant="HeadLine">Headline</Typography>
+        <Typography variant="SubHeadLine">SubHeadline</Typography>
+        <Typography variant="Title">Title</Typography>
+        <Typography variant="SubTitle">SubTitle</Typography>
+        <Typography variant="Body1">Body1</Typography>
+        <Typography variant="Body2">Body2</Typography>
+        <Typography variant="Caption">Caption</Typography>
+        <Typography variant="display1">display1</Typography>
       </View>
     </TypographyProvider>
   );
