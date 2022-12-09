@@ -7,7 +7,7 @@ import { material } from 'react-native-typography';
 export default function App() {
   const style = {
     base: {
-      // base can be used to declare common items , that applies for the all variantss like fontfamily,textColor etc
+      // base can be used to declare common items , that applies for the all variants like fontfamily,textColor etc
       fontSize: 16,
       color: 'black',
       fontFamily: 'Lato-Medium',

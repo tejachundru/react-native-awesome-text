@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { Text as RNText } from 'react-native';
-import type { TypographyProps } from './types';
-import { TypographyContext } from './TypographyProvider';
+import type { TypographyProps } from '../types';
+import { TypographyContext } from '../TypographyProvider';
 
 /**
  * @param {TypographyProps} props
@@ -13,7 +13,7 @@ const Typography: FunctionComponent<TypographyProps> = ({
   variant,
   style,
   ...rest
-}) => {
+}: TypographyProps): React.ReactElement => {
   return (
     <TypographyContext.Consumer>
       {(typographyStyle) => {

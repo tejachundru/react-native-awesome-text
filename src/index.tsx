@@ -1,4 +1,5 @@
-import { default as Typography } from './Typography';
+import { default as Typography } from './Text/Typography';
 import { default as TypographyProvider } from './TypographyProvider';
+import { default as TypographyInput } from './TextInput/TypographyInput';
 
-export { Typography, TypographyProvider };
+export { Typography, TypographyProvider, TypographyInput };
