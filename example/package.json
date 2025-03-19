@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "react": "16.14.0",
-    "react-native": "0.63.4",
+    "react-native": "0.69.12",
     "react-native-typography": "^1.4.1"
   },
   "devDependencies": {
